@@ -1,0 +1,744 @@
+*{
+    margin: 0;
+    padding:0;
+
+}
+body{
+    background-color: #F1F1F1;
+}
+.navbar{
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    /* top: 0px; */
+    align-items: center;
+    display: flex;
+    
+}
+.navbar > i{
+    margin-left: 15px;
+    padding: 5px 10px;
+    transition: all 0.4s;
+}
+.fa-magnifying-glass{
+    position: relative;
+    left: 1080px;
+}
+.navbar >  i:hover{
+    background-color: #CCCCCC;
+}
+
+@media screen  and (max-width:767px) {
+        .navbar{
+            height: 35px;
+            width: 100%;
+            font-size: 10px;
+        }
+        .fa-magnifying-glass{
+            position: relative;
+            left: 350px;
+        }
+    
+}
+
+/* HEADING */
+
+.heading{
+    height: 250px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
+}
+.head{
+    padding-top: 50px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: 100%;
+}
+.heading  mark{
+    text-transform: none;
+    background-color: black;
+    color: white;
+}
+
+@media screen  and (max-width:767px) {
+    .heading{
+        height: 150px;
+        width: 100%;
+    
+    }
+    .head{
+        padding-top: 25px;
+        font-size: 15px;
+    }
+    
+    .welcome{
+        font-size: 5px;
+    }
+}
+
+
+
+/* image */
+.image{
+    height: 950px;
+    width: 100%;
+    background-image: url(jane.jpg);
+    background-size: cover;
+    COLOR:white;
+
+}
+
+.image > h1{
+    padding-top: 450px;
+    margin-left: 15px;
+    
+}
+.image > p{
+    font-size: 50px;
+    margin-left: 15px;
+}
+.image > button{
+    margin-left: 15px;
+    height: 50px;
+    width: 150px;
+    background-color: rgb(189, 188, 188);
+    transition: all 0.4s;
+}
+.image > button:hover{
+    background-color: white;
+    color: black;
+
+}
+
+@media screen and (max-width:767px) {
+    .image{
+        height: 480px;
+        width: 100%;
+        background-image: url(jane.jpg);
+        background-size: cover;
+    }
+    .image > h1{
+        padding-top: 170px;
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .image > p{
+        font-size: 25px;
+        margin-left: 10px;
+    }
+    .image > button{
+        margin-left: 10px;
+        height: 30px;
+        width: 75px;
+        font-size: 10px;
+    } 
+    
+}
+
+/* TITLE HEADING */
+.grid{
+    display: grid;
+    grid-template-columns: auto  auto  auto auto;
+}
+.title{
+    height: 1150px;
+    width: 950px;
+    background-color: #fff;
+    margin-top: 20px;
+    margin-left: 25px;
+    text-align: center;
+    grid-row: 1 / 4;
+}
+.title > h2{
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ span{
+    color: grey;
+}
+.title > p{
+    color: black;
+}
+.more{
+    text-align: left;
+    margin-left: 23.5px;
+    font-family:stack open sans;
+}
+.sunt{
+    text-align: left;
+    margin-left: 23.5px;
+}
+.like{
+    margin-right: 710px;
+    height: 35px;
+    width: 80px;
+    background-color:white ;
+    transition: all 0.2s;
+}
+.like:hover{
+    background-color: rgb(189, 188, 188);
+    color: black;
+}
+.replies{
+    height: 50px;
+    width: 110px;
+    background-color:black;
+    color: white;
+    transition: all 0.2s;
+
+}
+.replies:hover{
+    background-color: #fff;
+    color: black;
+}
+.likes  .one{
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px solid black;
+}
+.george{
+    display: flex;
+    margin-left: 23.5px;
+    margin-top: 45px;
+    gap: 30px;
+}
+.geo{
+    margin-top: 45px;
+    margin-left: 15px;
+    font-family: "Open Sans", sans-serif;
+}
+.name{
+    height: 400px;
+     width: 500px;  
+    margin-top: 20px;
+    background-image: url(https://www.w3schools.com/w3images/avatar_girl2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale();
+    color: white;
+    object-fit: cover;
+
+}
+/* .girl2{
+    height: 400px;
+    width: 500px;
+    object-fit: cover;
+    filter: grayscale();
+} */
+.girl3{
+    margin-left: 15px;
+    margin-top: 250px;
+}
+.name1{
+    margin-left: 15px;
+}
+
+.popular{
+    height: 450px;
+    width: 500px;
+    grid-column: 2 / 2;
+    background-color: #fff;
+    margin-top: 35px;
+}
+.post{
+    font-size: 25px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+}
+.lists{
+    padding: 10px;
+    list-style: none;
+}
+.lists > li{
+    padding: 20px;
+    display: flex;
+    transition: all 0.2s;
+}
+.lists  span{
+    margin-left: 50px;
+    font-size: 20px;
+    color: black;
+}
+.lists > li:hover{
+    background-color: rgb(189, 188, 188); ;
+}
+.advertise{
+    width: 500px;
+    height: 250px;
+    background-color: #fff;
+    margin-top: 35px;
+}
+.adds{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding: 15px 10px;
+}
+.content{
+    background-color: #F1F1F1 ;
+    height: 150px;
+    width: 450px;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:767px) {
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+
+    }
+    .title{
+        height: 800px;
+        width: 250px;
+        margin-top: 15px;
+        margin-left: 10px;
+        grid-row: 1 / 4;
+
+    }
+    .title > img{
+        height: 250px;
+        width: 90%;
+        /* padding: 5px; */
+    }
+    .title > h2{
+        padding-top: 10px;
+
+    }
+
+    .more{
+        margin-left: 15px;
+        font-size: 10px;
+    }
+    .sunt{
+        margin-left: 15px;
+        font-size: 10px;
+    }
+    
+
+    .like{
+        /* margin-right: px; */
+        height: 20px;
+        width: 40px;
+        font-size: 10px;
+        margin-left: 10px;
+        
+    }
+    .replies{
+        /* margin-right: 5px; */
+        height: 25px;
+        width: 50px;
+        font-size: 8px;
+        position: relative;
+        left: 90px;
+        bottom: 20px;
+    }
+
+    .likes .one{
+        padding:2.5px 5px;
+        font-size:4px ;
+    }
+
+    .name{
+        height: 200px;
+        width: 200px;
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+    hr{
+        position: relative;
+    }
+
+    .george{
+        margin-left: 15px;
+        margin-top: 5px;
+        font-size: 10px;
+    }
+    .george > img{
+        width: 35px;
+        object-fit:cover;
+        object-position: top;
+    } 
+    .geo{
+        margin-left: 0.5px;
+        margin-top: 15px;
+    }
+    .girl3{
+        margin-left: 10px;
+        margin-top: 100px;
+        font-size: 10px;
+    }
+    .name1{
+        margin-left: 10px;
+        font-size: 10px;
+    }
+
+    .popular{
+        margin-top: 20px;
+        height: 300px;
+        width: 200px;
+        margin-left: 15px;
+    }
+    .post{
+        font-size: 10px;
+        padding: 10px;
+    }
+    .lists{
+        padding: 5px;
+    }
+    .lists > li{
+        padding: 5px;
+    }
+    .lists  span{
+        font-size: 10px;
+    }
+
+    .advertise{
+        width: 200px;
+        height: 150px;
+        margin-top: 20px;
+    }
+    .adds{
+        font-size: 10px;
+        padding: 5px;
+    }
+    .content{
+        height: 75px;
+        width: 150px;
+        font-size: 8px;
+        margin: 20px
+    }
+    
+}
+
+
+
+
+/* title heading 2 */
+
+.grid2{
+    display: grid;
+    grid-template-columns: auto  auto  auto auto;
+}
+.title2{
+    height: 950px;
+    width: 950px;
+    background-color: #fff;
+    margin-top: 20px;
+    margin-left: 25px;
+    text-align: center;
+    grid-row: 1 / 4;
+}
+.title > h2{
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ span{
+    color: grey;
+}
+.title > p{
+    color: black;
+}
+.more2{
+    text-align: left;
+    margin-left: 23.5px;
+    font-family:stack open sans;
+}
+.sunt2{
+    text-align: left;
+    margin-left: 23.5px;
+}
+.like2{
+    margin-right: 710px;
+    height: 35px;
+    width: 80px;
+    background-color:white ;
+    transition: all 0.2s;
+}
+.like2:hover{
+    background-color: rgb(189, 188, 188);
+    color: black;
+}
+.replies2{
+    height: 50px;
+    width: 110px;
+    background-color:black;
+    color: white;
+    transition: all 0.2s;
+
+}
+.replies2:hover{
+    background-color: #fff;
+    color: black;
+}
+.likes2  .one{
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px solid black;
+}
+.george2{
+    display: flex;
+    margin-left: 23.5px;
+    margin-top: 45px;
+    gap: 30px;
+}
+.geo2{
+    margin-top: 45px;
+    margin-left: 15px;
+    font-family: "Open Sans", sans-serif;
+}
+.tags{
+    height: 275px;
+    width: 500px;
+    background-color: #fff;
+    margin-top: 45px;
+}
+.tag{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.inspiration{
+    height: 380px;
+    width: 500px;
+    background-color: #fff;
+    margin-top: 35px;
+    grid-column: 2 / 2;
+}
+.inspire{
+    
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+
+}
+.inspiration > img{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.follow{
+    height: 100px;
+    width: 500px;
+    background-color: #fff;
+    margin-top: 35px;
+    grid-column: 3 / 2;
+}
+.folo{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+.follow > i{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.subscribe{
+    height: 250px;
+    width: 500px;
+    grid-column: 3 / 2;
+    background-color: #fff;
+}
+.subs{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+.subscribe > p{
+    margin-top: 25px;
+    font-size: 19px;
+    color: grey;
+    margin-left: 15px;
+    text-align: left;
+}
+.subscribe > input{
+    width: 90%;
+    margin-left: 15px;
+    margin-top: 25px;
+    height: 30px;
+}
+.subscribe > button{
+    height: 35px;
+    width: 90%;
+    margin-left: 15px;
+    margin-top: 25px;
+    background-color: #F44336;
+    color: white;
+    border: 0px transparent;
+    transition: all 0.2s;
+}
+.subscribe > button:hover{
+    background-color: #CCCCCC;
+    color: black;
+}
+
+
+@media screen and (max-width:767px) {
+    .grid2{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+
+    }
+    .title{
+        height: 800px;
+        width: 250px;
+        margin-top: 15px;
+        margin-left: 10px;
+        grid-row: 1 / 4;
+
+    }
+    .title > img{
+        height: 250px;
+        width: 90%;
+        /* padding: 5px; */
+    }
+    .title > h2{
+        padding-top: 10px;
+
+    }
+
+    .more{
+        margin-left: 15px;
+        font-size: 10px;
+    }
+    .sunt{
+        margin-left: 15px;
+        font-size: 10px;
+    }
+    
+
+    .like{
+        /* margin-right: px; */
+        height: 20px;
+        width: 40px;
+        font-size: 10px;
+        margin-left: 10px;
+        
+    }
+    .replies{
+        /* margin-right: 5px; */
+        height: 25px;
+        width: 50px;
+        font-size: 8px;
+        position: relative;
+        left: 90px;
+        bottom: 20px;
+    }
+
+    .likes .one{
+        padding:2.5px 5px;
+        font-size:4px ;
+    }
+}
+
+/* heading title 3 */
+
+.title3{
+    height: 950px;
+    width: 950px;
+    background-color: #fff;
+    margin-top: -220px;
+    margin-left: 25px;
+    text-align: center;
+    grid-row: 1 / 4;
+}
+.title > h2{
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ span{
+    color: grey;
+}
+.title > p{
+    color: black;
+}
+.more3{
+    text-align: left;
+    margin-left: 23.5px;
+    font-family:stack open sans;
+}
+.sunt3{
+    text-align: left;
+    margin-left: 23.5px;
+}
+.like3{
+    margin-right: 710px;
+    height: 35px;
+    width: 80px;
+    background-color:white ;
+    transition: all 0.2s;
+}
+.like3:hover{
+    background-color: rgb(189, 188, 188);
+    color: black;
+}
+.replies3{
+    height: 50px;
+    width: 110px;
+    background-color:black;
+    color: white;
+    transition: all 0.2s;
+
+}
+.replies3:hover{
+    background-color: #fff;
+    color: black;
+}
+.likes3  .one{
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+/* footer */
+.foot{
+    height: 200px;
+    width: 100%;
+    background-color: #616161;
+    margin-top: 30px;
+
+}
+.foot > button{
+    height: 45px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    margin-top: 60px;
+    margin-left: 30px;
+    transition: all 0.2s;
+    border: 0px transparent;
+}
+.foot i {
+    font-size: 15px;
+
+}
+.foot > button:hover{
+    background-color: #fff;
+    color: black;
+}
+.foot > p{
+    color: white;
+    margin-left: 30px;
+}
+
+.foot  a {
+    color: white;
+}
+
+
